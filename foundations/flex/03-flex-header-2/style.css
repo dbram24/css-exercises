@@ -52,7 +52,7 @@ a {
 ul {
   list-style-type: none;
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
@@ -61,7 +61,7 @@ ul {
 
 .left-side {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: flex-start;
   align-items: center;
   gap: 16px;
@@ -69,7 +69,7 @@ ul {
 
 .right-side {
   display: flex;
-  flex-flow: row wrap;
+  flex-flow: row nowrap;
   justify-content: flex-end;
   align-items: center;
   gap: 16px;
