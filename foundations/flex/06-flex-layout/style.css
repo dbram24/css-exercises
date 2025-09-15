@@ -32,6 +32,10 @@ input {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+  gap: 16px;
 }
 
 a {
@@ -39,15 +43,11 @@ a {
   color: grey;
 }
 
-.header,.footer {
+.header,
+.footer {
   display: flex;
   justify-content: space-between;
   padding: 12px;
-}
-
-.left-links,.right-links {
-  display: flex;
-  gap: 24px;
 }
 
 .footer {
