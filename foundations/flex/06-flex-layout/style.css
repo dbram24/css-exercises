@@ -42,3 +42,8 @@ a {
   justify-content: space-between;
   padding: 12px;
 }
+
+.left-links,.right-links {
+  display: flex;
+  gap: 24px;
+}
