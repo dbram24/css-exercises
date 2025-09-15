@@ -15,6 +15,7 @@ body {
   display: flex;
   flex-flow: row nowrap;
   justify-content: space-between;
+  align-items: center;
   margin: 0;
   padding: 8px;
 }
@@ -54,8 +55,16 @@ ul {
 
 .left-side {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-start;
+  align-items: center;
+  gap: 16px;
 }
 
 .right-side {
   display: flex;
+  flex-flow: row wrap;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 16px;
 }
