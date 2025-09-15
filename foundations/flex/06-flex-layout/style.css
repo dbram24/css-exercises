@@ -36,3 +36,8 @@ a {
   text-decoration: none;
   color: grey;
 }
+
+.header,.footer {
+  display: flex;
+  justify-content: space-between;
+}
